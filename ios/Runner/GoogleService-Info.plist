@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA9j2_JBwmN0w2ue5ANtrHqy48A104LNB8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>586635626032</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.adarsh.simpleNotes</string>
+	<key>PROJECT_ID</key>
+	<string>simple-notes-flutter-project</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simple-notes-flutter-project.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:586635626032:ios:cd4d9e070898627f4b0ff5</string>
+</dict>
+</plist>
