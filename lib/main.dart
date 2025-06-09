@@ -35,7 +35,13 @@ class HomePage extends StatelessWidget {
         builder: (context, snapshot) {
           switch (snapshot.connectionState) {
             case ConnectionState.done:
-              return const LogInView();
+            final user = FirebaseAuth.instance.currentUser;
+            if (user == null) {
+ return const LogInView();
+            } else {
+              return const Text("Done");
+            }
+             
             default:
               return Text("Loading");
           }
